@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "kritika_gift",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
