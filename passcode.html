@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passcode</title>
+    <link rel="stylesheet" href="passcode.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Jersey+25+Charted&family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>QUIZ TIME </h1>
+        </div>
+        <div class="flex_con">
+        <div class="main">
+        <form onsubmit="return valid()" action="show_pass.html" method="get" >
+            <div class="form_content">
+            <div class="first text">
+                Enter our name
+            </div>
+            <div class="form">
+                <input type="text" placeholder="eg . Virushka" id="dhanika" class="input" required>
+            </div>
+            <div class="text">
+                Our best makeout place
+            </div>
+            <div class="form">
+                <input type="text" placeholder="eg . Car" id="auto" class="input" required>
+            </div>
+            <div class="text">
+                Majorly hum ghoomne kahan jaate h
+               
+            </div>
+            <div class="form">
+                <input type="text" placeholder="eg . Rajiv chowk" id="chandini" class="input" required>
+            </div>
+            <div class="text">
+                Place jahan tumne pehli baar haath se khilaya tha 
+            </div>
+            <div class="form">
+                <input type="text" placeholder="eg . janakpuri ki shop" id="kg" class="input" required>
+            </div>
+            <div class="text">
+                Practical ka sub konsa tha jab 2hr baat ki
+            </div>
+            <div class="form">
+                <input type="text" placeholder="eg . CN (write short form)" id="dlcd" class="input" required>
+            </div>
+            <div class="bttn">
+            <button type="submit" class="button">Sumbit</button>
+        </div>
+       
+        </div>
+        </form>
+    </div>
+        <div class="fail">
+            <h1 id="result"></h1>
+            <p id="wrong"></p>
+        </div>
+    </div>
+
+    </div>
+<script src="passcode.js">
+
+</script>
+</body>
+
+</html>
